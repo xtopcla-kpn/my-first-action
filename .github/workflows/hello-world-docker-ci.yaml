@@ -14,7 +14,7 @@ jobs:
 
       - name: Run my own container action
         id: hello-action
-        uses: ./my-first-action
+        uses: ./
         with:
           who-to-greet: 'myself'
 
